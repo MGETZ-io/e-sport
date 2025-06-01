@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Partner | E-Sports Neumünster</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #222;
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .partner-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .partner {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 1rem;
+      transition: transform 0.2s;
+    }
+
+    .partner:hover {
+      transform: scale(1.05);
+    }
+
+    .partner img {
+      max-width: 100%;
+      max-height: 100px;
+      object-fit: contain;
+      margin: auto;
+      display: block;
+    }
+
+    footer {
+      padding: 1rem;
+      background-color: #222;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Unsere Partner</h1>
+    <p>Stolze Unterstützer von E-Sports Neumünster</p>
+  </header>
+
+  <main class="partner-grid">
+    <!-- Beispiel-Partner -->
+    <a href="https://example.com" target="_blank" class="partner">
+      <img src="logos/partner1.png" alt="Partner 1 Logo">
+    </a>
+    <a href="https://example2.com" target="_blank" class="partner">
+      <img src="logos/partner2.png" alt="Partner 2 Logo">
+    </a>
+    <a href="https://example3.com" target="_blank" class="partner">
+      <img src="logos/partner3.png" alt="Partner 3 Logo">
+    </a>
+    <!-- Weitere Partner einfach nach diesem Schema hinzufügen -->
+  </main>
+
+  <footer>
+    &copy; 2025 E-Sports Neumünster. Alle Rechte vorbehalten.
+  </footer>
+
+</body>
+</html>
